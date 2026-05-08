@@ -65,4 +65,4 @@ data = dict(
         pipeline=test_pipeline))
 
 # 0.x 评价指标配置
-evaluation = dict(interval=2000, metric='mIoU', pre_eval=True)
+evaluation = dict(interval=2000, metric='mIoU', pre_eval=True, save_best='mIoU')

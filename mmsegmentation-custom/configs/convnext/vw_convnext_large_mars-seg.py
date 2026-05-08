@@ -59,4 +59,4 @@ runner = dict(type='IterBasedRunner', max_iters=160000)
 # saving checkpoints every 8000 iters
 checkpoint_config = dict(by_epoch=False, interval=8000)
 # evaluating every 1000 iters and save the best.
-evaluation = dict(interval=1000, metric='mIoU', save_best='mIoU')
+# evaluation = dict(interval=1000, metric='mIoU', save_best='mIoU')
